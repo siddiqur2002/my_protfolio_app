@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
             </div>
 
             <img
-              src="../public/images/profile.jpg"
+              src="/images/profile.jpg"
               alt="Profile"
               className="w-60 h-60 rounded-full object-cover border-4 border-purple-500 shadow-lg mb-6 spin-3d"
             />
