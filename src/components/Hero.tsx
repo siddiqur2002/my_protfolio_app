@@ -3,7 +3,7 @@ import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 
 
 const openCV = () => {
-  window.open("/cv.pdf");
+  window.open("/files/resume.pdf");
 };
 
 const Hero: React.FC = () => {
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="slide-in-up">
-          <div className="flex">
+          <div className="flex flex-wrap justify-center">
             <div>
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 transform-3d">
                 <span className="block text-gradient">Creative</span>

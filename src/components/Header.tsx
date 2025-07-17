@@ -23,7 +23,7 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <header className={`relative top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled ? 'glass backdrop-blur-md' : ''
     }`}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,7 +37,7 @@ const Header: React.FC = () => {
                 </div>
                 <Terminal size={28} className="text-cyan-400 group-hover:text-cyan-300 transition-colors duration-300 transform group-hover:-rotate-12" />
               </div>
-              <span className="text-gradient group-hover:scale-105 transition-transform duration-300">
+              <span className="text-gradient w-full h-full group-hover:scale-105 transition-transform duration-300">
                 MD SIDDIQUR RAHMAN
               </span>
             </a>

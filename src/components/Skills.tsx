@@ -44,8 +44,8 @@ const Skills: React.FC = () => {
           color: 'from-yellow-400 to-orange-500'
         },
         { 
-          name: 'Vue.js', 
-          level: 20, 
+          name: 'React Fiber & Three.js', 
+          level: 70, 
           icon: <Globe size={24} />,
           color: 'from-green-400 to-emerald-600'
         },
@@ -57,13 +57,13 @@ const Skills: React.FC = () => {
         },
         { 
           name: 'Next.js', 
-          level: 70, 
+          level: 40, 
           icon: <Smartphone size={24} />,
           color: 'from-gray-600 to-gray-800'
         },
         { 
           name: 'Bootstrap', 
-          level: 90, 
+          level: 80, 
           icon: <Smartphone size={24} />,
           color: 'from-purple-500 to-pink-600'
         }
@@ -105,14 +105,14 @@ const Skills: React.FC = () => {
           color: 'from-orange-500 to-red-600'
         },
         {
-          name: 'Firebase',
-          level: 20,
+          name: 'RestFull API Management',
+          level: 80,
           icon: <Database size={24} />,
           color: 'from-yellow-500 to-orange-500'
         },
         { 
-          name: 'GraphQL', 
-          level: 10, 
+          name: 'Express JS', 
+          level: 90, 
           icon: <Globe size={24} />,
           color: 'from-purple-500 to-pink-600'
         }
